@@ -1,0 +1,183 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h1,h2 ,h3 ,h4 , h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.price-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.section-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* TITLE SECTION */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.iphone-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.colored-section {
+  background-color: #EC3E6C;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*Navigation Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* FEATURES */
+#features {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  position: relative;
+}
+
+.featurerow {
+  padding: 4%;
+}
+
+.icon {
+  color: #f78374;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #EC3E6C;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #f78374;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #f78374;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Price Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-colmn {
+  padding: 3% 2%;
+}
+
+/* CALL TO AN ACTION */
+
+.button-down {
+  line-height: 1;
+  margin: 5% 3% 5% 0%;
+  padding: 1.5% 1.5%;
+}
+
+.icon-2 {
+  padding-right: 0.5rem;
+}
+
+/* FOOTER SECTION */
+#footer {
+  background-color: #fff;
+}
+
+.icon-social {
+  margin: 20px 10px;
+}
+
+/* MEDIA */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
