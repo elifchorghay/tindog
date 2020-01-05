@@ -1,9 +1,9 @@
 # tindog
 
-##What is tindog?
+## What is tindog?
 It's a dating app for dogs. 
 
-###Including
+### Including
 HTML
 CSS3
 Bootsrap
