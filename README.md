@@ -4,6 +4,5 @@
 It's a dating app for dogs. 
 
 ### Including
-HTML
-CSS3
-Bootsrap
+HTML,
+CSS3, and Bootsrap.
